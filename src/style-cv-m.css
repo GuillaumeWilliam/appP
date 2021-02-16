@@ -1,0 +1,64 @@
+.tables{
+    width: 100%;
+    margin: auto;
+}
+
+.tables h2:nth-of-type(1), .tables h2:nth-of-type(2){
+    padding-top: 20px;
+}
+
+tr td{
+    padding: 6px 10px 6px 10px;
+}
+
+tr > *{
+    display: block;
+}
+
+.experiences{
+    border: 3px solid #9a5a12;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.experiences td:nth-of-type(1),.trainings td:nth-of-type(1){
+    padding-right: 30px;
+    font-weight: 600;
+}
+
+.experiences tr td:nth-of-type(3){
+    font-style: italic;
+    text-align: right;
+}
+
+.trainings{
+    border: 3px solid #9a5a12;
+    border-radius: 7px;
+    width: 100%;
+}
+
+.skills{
+    border: 3px solid #9a5a12;
+    border-radius: 7px;
+    width: 100%;
+    text-align: center;
+}
+
+.skills tr:nth-of-type(2) td:nth-of-type(1){
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.langue{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.comprehension{
+    font-style: italic;
+}
+
+.expression{
+    font-style: italic;
+}

@@ -1,0 +1,74 @@
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 55px 0 55px;
+}
+
+.email, .phone, .address{
+    border: 2px solid #9a5a12;
+    border-radius: 7px;
+    padding: 40px 0 40px 0;
+    display: block;
+    width: 280px;
+}
+
+.email i:nth-of-type(1), .phone i:nth-of-type(1), .address i:nth-of-type(1){
+    padding: 15px;
+}
+
+.email p:nth-of-type(2){
+    font-style: italic;
+    padding-top: 5px;
+}
+
+.contactform{
+    text-align: center;
+    line-height: 50px;
+}
+
+.contactform h2{
+    margin-top: 50px;
+    margin-bottom: -1px;
+}
+
+input, textarea{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    color: #372e29;
+    font-weight: 500;
+    border: 1px dashed #9a5a12;
+    border-radius: 4px;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+}
+
+textarea{
+    height: 42px;
+}
+
+input:last-of-type{
+    font-family: 'Sansita Swashed', cursive;
+    border: 2px solid #12529A;
+    font-weight: 600;
+}
+
+.map{
+    text-align: center;
+    line-height: 90px;
+}
+
+.map h2{
+    margin-bottom: -5px;
+}
+
+.gmap{
+    border: 2px solid #9a5a12;
+    border-radius: 7px;
+    width: 910px;
+    height: 350px;
+    margin: 0 auto;
+    align-content: space-around;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.email, .phone, .address{
+    border: 2px solid #9a5a12;
+    border-radius: 7px;
+    padding: 8px 0 8px 0;
+    display: block;
+    width: 280px;
+    margin: 15px 0;
+}
+
+.email i:nth-of-type(1), .phone i:nth-of-type(1), .address i:nth-of-type(1){
+    padding: 5px;
+}
+
+.email p:nth-of-type(2){
+    font-style: italic;
+}
+
+.email {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+}
+
+.address {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
+}
+
+.contactform{
+    text-align: center;
+    line-height: 45px;
+}
+
+.contactform h2{
+    margin-top: 25px;
+    margin-bottom: -1px;
+}
+
+input, textarea{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: #372e29;
+    font-weight: 500;
+    border: 1px dashed #9a5a12;
+    border-radius: 4px;
+    text-align: center;
+    width: 160px;
+    height: 30px;
+}
+
+textarea{
+    height: 75px;
+}
+
+input:last-of-type{
+    font-family: 'Sansita Swashed', cursive;
+    border: 2px solid #12529A;
+    font-weight: 600;
+}
+
+.map{
+    text-align: center;
+    line-height: 90px;
+    margin-top: -5px;
+}
+
+.map h2{
+    margin-bottom: -15px;
+}
+
+.gmap{
+    border: 2px solid #9a5a12;
+    border-radius: 7px;
+    width: 85%;
+    height: 250px;
+    margin: 0 auto;
+}
